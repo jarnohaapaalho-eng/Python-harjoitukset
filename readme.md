@@ -5,11 +5,11 @@
 
 ## Moduuli 1 
 
-
+5.9 Github linkki lisätty tehtävät kansiion
 
 ## Moduuli 2
 
-
+5.9 Tehtävät 1-6 suoritettu ja palautettu
 
 ## Moduuli 3
 
