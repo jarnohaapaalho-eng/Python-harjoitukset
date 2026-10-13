@@ -1,8 +1,6 @@
-# This .py file is intended as temporary exercises done during the class or otherwise
-# Now a calculator?
 
 # Komia laskin
-print("         ------------")
+print("\n         ------------")
 print("         -> LASKIN <-")
 print("         ------------")
 
@@ -10,11 +8,11 @@ print("         ------------")
 while True:
 
     # Toistettavat tekstit. Laskimen "Nolla" piste
-    print("Valitse mitä toimintoa haluat käyttää:")
-    print("[A] Yhteenlasku, [B] Vähennyslasku, [C] Kertolasku, [D] Jakolasku, [Q] Lopeta ohjelma.")
+    print("\nValitse mitä toimintoa haluat käyttää:\n")
+    print("\n[A] Yhteenlasku, \n[B] Vähennyslasku, \n[C] Kertolasku, \n[D] Jakolasku, \n[Q] Lopeta ohjelma.")
 
     # Tallentaa valinnan muuttujan, muuttaa tekstin isoksi kirjaimeksi
-    valinta = input("Valintasi: ").upper()
+    valinta = input("\nValintasi: ").upper()
 
     # Tarkistaa haluaako käyttäjä poistua laskimesta
     if valinta == "Q":
@@ -24,6 +22,7 @@ while True:
     # Tarkistaa onko annettu valinta virheellinen
     elif valinta != "A" and valinta != "B" and valinta != "C" and valinta != "D":
         print("Virheellinen valinta. Yritä uudelleen.")
+        continue
 
     # Muuttujat laskentaa varten
     a = float(input("Ensimmäinen luku: "))

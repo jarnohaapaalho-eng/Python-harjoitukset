@@ -9,7 +9,7 @@ import random
 arvattava_luku = random.randint(1, 10)
 
 while True:
-    arvattu_luku = float(input("Arvaa luku 1-10 välillä: "))
+    arvattu_luku = int(input("Arvaa luku 1-10 välillä: "))
 
     if arvattu_luku == arvattava_luku:
         print("Oikein")

@@ -15,7 +15,7 @@ if numero != "":
             break
         
         luku = float(numero)
-        elif luku < pienin:
+        if luku < pienin:
             pienin = luku
         elif luku > suurin:
             suurin = luku
