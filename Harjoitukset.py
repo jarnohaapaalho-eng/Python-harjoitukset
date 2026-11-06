@@ -1,15 +1,11 @@
-# Harjoituksia
+def eka_kirjain(sana): 
+    # kirjoita koodisi tähän 
+    print (sana[0])
 
-lista = ["maito", "leipä", "pasta", "juusto", "makkara"]
-
-while lista:
-
-    tuote = input("Mitä ostit? ").lower()
-
-    if tuote in lista:
-        lista.remove(tuote)
-        print("Jäljellä:", lista)
-    else:
-        print("Ei löydy listalta!")
-
-print("Shoppailu done")
+# funktion testausta pääohjelmassa: 
+eka_kirjain('python') 
+eka_kirjain('yellow') 
+eka_kirjain('tomorrow') 
+eka_kirjain('heliotrope') 
+eka_kirjain('open') 
+eka_kirjain('night')

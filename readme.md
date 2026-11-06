@@ -17,11 +17,11 @@
 
 ## Moduuli 4
 
-
+Kyllähä ne ajallaan tais tulla, ken enää tietää millo
 
 ## Moduuli 5
 
-
+Sama homma ku nelosessa, sit viel oli jotain kertaustehtäviä enne moduulia 6 
 
 ## Moduuli 6
 
